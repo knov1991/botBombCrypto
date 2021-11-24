@@ -1,0 +1,5 @@
+auto-py-to-exe
+opencv-python
+pillow
+pyautogui
+pymysql
