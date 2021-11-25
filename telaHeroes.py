@@ -13,6 +13,8 @@ def telaHeroes():
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
     #Pegar coordenadas das contas
     if max_val > threshold:
+        pyautogui.moveTo(max_loc)
+        sleep(0.5)
         pyautogui.click(max_loc)
         sleep(20)
 
